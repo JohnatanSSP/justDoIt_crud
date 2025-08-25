@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.UUID;
 
-public record negotiation(UUID id,
+public record Negotiation(UUID id,
                           Instant timestamp,
                           String asset,
                           BigDecimal amount,
