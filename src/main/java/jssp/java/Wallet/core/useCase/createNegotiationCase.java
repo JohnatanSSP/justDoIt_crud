@@ -2,7 +2,7 @@ package jssp.java.Wallet.core.useCase;
 
 import jssp.java.Wallet.core.entities.Negotiation;
 
-public interface createNegotiationCase {
+public interface CreateNegotiationCase {
 
     public Negotiation execute(Negotiation negotiation);
 }
