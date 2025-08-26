@@ -8,7 +8,7 @@ import java.util.UUID;
 
 public record Negotiation(UUID id,
                           Instant timestamp,
-                          String asset,
+                          String name,
                           BigDecimal amount,
                           NegotiationType type,
                           NegotiationStatus status) {
